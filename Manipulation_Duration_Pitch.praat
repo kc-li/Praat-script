@@ -1,12 +1,13 @@
 # Manipulate duration and pitch in an accurate way
 # Prepare the manipulation object beforehand, so that you could check the stylization
+# Select textgrid & manipulation
 
 # choose increase rate
 
-name_duration = 1.6
-boundary_duration = 1.8
-name_pitch = 10
-boundary_pitch = -10
+name_duration = 1.5
+boundary_duration = 1.5
+name_pitch = 20
+boundary_pitch = -20
 
 
 textgrid = selected("TextGrid")

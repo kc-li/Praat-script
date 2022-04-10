@@ -1,8 +1,15 @@
 # This variation can save all the selected file, of the type sound and textgrid.
 # Other non-recognised types will be saved without a correct suffix
+# Allow users to choose a directory, and quit if not chosen
+# Updated by Katrina Li (2021.06.14)
 
 #Allow user to choose directory
 foldername$ = chooseDirectory$: "Choose a directory"
+
+if foldername$ == ""
+	exitScript: "not directory is chosen"
+endif
+
 dir$ = foldername$ + "/"
 
 # dir$ = "/Users/kechun/Downloads/"

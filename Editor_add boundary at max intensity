@@ -1,0 +1,14 @@
+	sound = Extract selected sound (preserve times)
+endeditor
+
+select 'sound'
+intensity = To Intensity... 300 0.0001
+time = Get time of maximum... 0 0 parabolic
+
+select 'sound'
+plus 'intensity'
+Remove
+
+editor
+	Move cursor to: time
+	Add on tier 2
