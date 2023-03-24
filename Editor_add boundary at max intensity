@@ -1,4 +1,6 @@
-	sound = Extract selected sound (preserve times)
+# This script will move cursor to the point of maximum intensity point in the selected window
+
+sound = Extract selected sound (preserve times)
 endeditor
 
 select 'sound'
@@ -11,4 +13,4 @@ Remove
 
 editor
 	Move cursor to: time
-	Add on tier 2
+	# Add on tier 2

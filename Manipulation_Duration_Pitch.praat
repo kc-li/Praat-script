@@ -1,3 +1,4 @@
+#!!This script is for a specific project so you might not find it useful for your purpose
 # Manipulate duration and pitch in an accurate way
 # Prepare the manipulation object beforehand, so that you could check the stylization
 # Select textgrid & manipulation

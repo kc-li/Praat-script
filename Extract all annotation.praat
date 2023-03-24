@@ -1,6 +1,13 @@
 
+# Extract text from all textgrids in a folder
+#####################3
+# Specify path here #
+folder$ = ""
+# Specify the tier where you want to extract the content
+target_tier = 1
+#####################
 
-folder$ = "/Users/kechun/Documents/CANTONESE(Heritage)/Sound Files/Textgrids"
+
 strings = Create Strings as file list: "list", folder$ + "/*.TextGrid"
 numberOfFiles = Get number of strings
 
@@ -11,7 +18,7 @@ for ifile to numberOfFiles
 	textfile$ = folder$ + filename$ - "TextGrid" + "txt"
 	
 	select file
-	nintervals = Get number of intervals... 1
+	nintervals = Get number of intervals... target_tier
 	for m from 1 to nintervals
 		label$ = Get label of interval... duration_tier m
 		if label$ <> "" and label$ <> " "
