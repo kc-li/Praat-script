@@ -12,8 +12,6 @@ endif
 
 dir$ = foldername$ + "/"
 
-# dir$ = "/Users/kechun/Downloads/"
-# dir$ = "/Users/kechun/Documents/GitHub/CantonesePFC/sounddemo/"
 n = numberOfSelected()
 writeInfoLine: "n=",tab$,n
 
